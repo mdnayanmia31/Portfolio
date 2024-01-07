@@ -1,0 +1,130 @@
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: "Poppins";
+  color: #fff;
+  background-color: #1d1d1d;
+}
+
+a {
+  color: #C3073F;
+  text-decoration: none;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+a:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.profile-image {
+  height: 220px;
+  width: 230px;
+  border-radius: 10%;
+}
+
+.header {
+  font-size: 30pt;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.description {
+  text-align: center;
+  font-weight: 300;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.code-icon {
+  font-size: 80px;
+  margin-top: 60px;
+}
+
+section .container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+#tsparticles {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#about {
+  padding: 100px 0 60px;
+  background-color: #111111;
+}
+
+#projects {
+  background-color: #111111;
+  padding: 60px 0 60px;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+  .banner-wrap {
+      top: 40%;
+      left: 20%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #about {
+      padding:50px 10px 40px;
+  }
+
+  .description {
+    margin-top: 10px;
+  }
+
+  .header {
+    font-size: 25pt;
+  }
+
+  section .container {
+    padding: 0;
+    max-width: 1000px;
+  }
+
+  .banner-wrap {
+    top: 35%;
+    left: 10%;
+  }
+
+  .banner-text {
+    font-size: 18pt;
+  }
+
+  .banner-button {
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 13pt;
+  }
+
+  .code-icon {
+    font-size: 60px;
+    margin-top: 40px;
+  }
+
+  .cards {
+    padding: 10px;
+  }
+}

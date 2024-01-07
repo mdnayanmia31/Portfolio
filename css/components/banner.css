@@ -1,0 +1,37 @@
+#banner-links a {
+  font-size: 40px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.banner-wrap {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  text-align: center;
+  font-weight: 300
+}
+
+.banner-button {
+  color: #fff;
+  border: 2px solid #fff;
+  box-sizing: inherit;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13pt;
+  padding: 10px 20px;
+  -webkit-transition: all .5s;
+  transition: all .5s
+}
+
+.banner-button:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #191919;
+}
+
+.banner-text {
+  font-size: 32pt;
+  line-height: 36pt;
+  margin: 0 0 20px
+}
