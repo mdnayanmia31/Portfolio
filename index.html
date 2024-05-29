@@ -154,10 +154,11 @@
       document.addEventListener('visibilitychange', function () {
                 if (document.visibilityState === "visible") {
                     document.title = "Md Nayan Mia";
-                    document.getElementById("favicon").setAttribute("href", "images/icon01.png");
+                    document.getElementById("favicon");
                 } else {
                     document.title = "Hey!! Come Back";
                 }
+        });
     </script>
   </body>
 </html>
